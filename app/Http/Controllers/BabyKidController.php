@@ -10,4 +10,9 @@ class BabyKidController extends Controller
         return 'Baby Kid Page';
     }
 
+    public function babyKid2(){
+        return view ('blog.babyKid');
+    }
+
+
 }
