@@ -10,4 +10,8 @@ class HomeCareController extends Controller
         return 'Home Care Page';
     }
 
+    public function homeCare2(){
+        return view ('blog.homeCare');
+    }
+
 }
