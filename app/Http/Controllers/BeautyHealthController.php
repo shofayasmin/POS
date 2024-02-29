@@ -10,4 +10,9 @@ class BeautyHealthController extends Controller
         return 'Beauty Health Page';
     }
 
+    public function beautyHealth2(){
+        return view ('blog.beautyHealth');
+    }
+
+
 }
