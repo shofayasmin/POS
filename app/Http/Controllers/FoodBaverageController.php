@@ -10,4 +10,8 @@ class FoodBaverageController extends Controller
         return 'Food Baverage Page';
     }
 
+    public function foodBaverage2(){
+        return view ('blog.foodBaverage');
+    }
+
 }
